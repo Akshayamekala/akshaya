@@ -1,4 +1,4 @@
-import './App.css'
+/*import './App.css'
 import Test from './Test'
 import Test1 from './Test1'
 function App() {
@@ -18,4 +18,15 @@ function Test2(){
   )
 }
 
-export default App
+export default <App></App>*/
+
+
+
+function App(){
+  return(
+  <div>
+    <img src={"image.jpeg"} height={200} width={200}/>
+  </div>
+  )
+}
+export default App;
